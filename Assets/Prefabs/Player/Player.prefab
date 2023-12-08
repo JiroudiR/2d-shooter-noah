@@ -152,6 +152,7 @@ MonoBehaviour:
   useLives: 1
   currentLives: 3
   maximumLives: 5
+  healthBar: {fileID: 0}
   deathEffect: {fileID: 6218169049356006189, guid: 68794701c80057447857bb433e54c579, type: 3}
   hitEffect: {fileID: 5156419567158778961, guid: d35295653acdbe24081a5caee3d9c353, type: 3}
 --- !u!20 &163237688664676230
@@ -301,8 +302,9 @@ MonoBehaviour:
   projectilePrefab: {fileID: 3562651836113712045, guid: aee1688b385340b4bab2b46707955895, type: 3}
   projectileHolder: {fileID: 1717924058821749097}
   isPlayerControlled: 1
-  fireRate: 0.05
+  fireRate: 0.2
   projectileSpread: 1
+  waitTime: 3
   fireEffect: {fileID: 0}
 --- !u!1 &6921365857131986707
 GameObject:

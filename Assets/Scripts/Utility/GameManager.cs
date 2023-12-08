@@ -189,7 +189,13 @@ public class GameManager : MonoBehaviour
     public void IncrementEnemiesDefeated()
     {
         enemiesDefeated++;
-        if (enemiesDefeated >= enemiesToDefeat && gameIsWinnable)
+        if (SceneManager.GetActiveScene().name == "Level1" && gameIsWinnable && gameManagerScore == 50)
+        {
+            LevelCleared();
+        } else if (SceneManager.GetActiveScene().name == "Level2" && gameIsWinnable && gameManagerScore == 100)
+        {
+            LevelCleared();
+        } else if (SceneManager.GetActiveScene().name == "Level3" && gameIsWinnable && gameManagerScore == 200)
         {
             LevelCleared();
         }
@@ -307,7 +313,6 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("score", score);
         if (uiManager != null)
         {
-            player.SetActive(false);
             uiManager.allowPause = false;
             Time.timeScale = 0;
             uiManager.GoToPage(gameVictoryPageIndex);
