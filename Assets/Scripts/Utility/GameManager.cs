@@ -310,7 +310,6 @@ public class GameManager : MonoBehaviour
     /// </summary>
     public void LevelCleared()
     {
-        PlayerPrefs.SetInt("score", score);
         if (uiManager != null)
         {
             uiManager.allowPause = false;
