@@ -748,7 +748,6 @@ GameObject:
   - component: {fileID: 1248184515}
   - component: {fileID: 1248184517}
   - component: {fileID: 1248184516}
-  - component: {fileID: 1248184518}
   m_Layer: 5
   m_Name: HighscoreText
   m_TagString: Untagged
@@ -795,7 +794,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'High Score: 0'
+  m_text: 'Score Objective: 100'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e548358fbd6c57459490741857aed48, type: 2}
   m_sharedMaterial: {fileID: -3647551875988205527, guid: 5e548358fbd6c57459490741857aed48, type: 2}
@@ -872,19 +871,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248184514}
   m_CullTransparentMesh: 1
---- !u!114 &1248184518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248184514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 365b252fbaf5d9e47a7e7e2f74042a98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayText: {fileID: 1248184516}
 --- !u!1001 &1272441117
 PrefabInstance:
   m_ObjectHideFlags: 0
