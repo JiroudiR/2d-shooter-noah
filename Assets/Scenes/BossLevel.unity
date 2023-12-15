@@ -205,7 +205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9156467589244100177, guid: a633ba6c1d9f2b6478e803663c0c01c5, type: 3}
       propertyPath: fireRate
-      value: 0.14
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 9156467589244100177, guid: a633ba6c1d9f2b6478e803663c0c01c5, type: 3}
       propertyPath: projectileHolder
@@ -474,7 +474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7125813286935845035, guid: e903e268f1c00834c8e490d6931613ec, type: 3}
       propertyPath: spawnDelay
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7125813286935845035, guid: e903e268f1c00834c8e490d6931613ec, type: 3}
       propertyPath: projectileHolder
@@ -1195,7 +1195,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2237f533f80d6e478cd8e0d09458909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.05
 --- !u!23 &1169188808
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2337,7 +2336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5193187741851290256, guid: 8eb58a6c59d88b04f9fde295f2752f1b, type: 3}
       propertyPath: spawnDelay
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5193187741851290256, guid: 8eb58a6c59d88b04f9fde295f2752f1b, type: 3}
       propertyPath: enemyPrefab

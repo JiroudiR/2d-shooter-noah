@@ -2799,7 +2799,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Virtual Space Academy
+  m_text: Virtual Space Cadet Academy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5e548358fbd6c57459490741857aed48, type: 2}
   m_sharedMaterial: {fileID: -3647551875988205527, guid: 5e548358fbd6c57459490741857aed48, type: 2}
@@ -2933,7 +2933,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ">/controls_movement\n // Left and right \n //arrows, A+D keys\n>/controls_shooting\n
+  m_text: ">/controls_movement\n // Left and right \n // arrows, A+D keys\n>/controls_shooting\n
     // LMB and Spacebar\n // to fire\n>/win_conditions\n // Defeat enemies to\n //
     gain score, get\n // enough score to win\n>/lose-conditions\n // If you get hit
     or an\n // enemy passes you,\n // it's game over"

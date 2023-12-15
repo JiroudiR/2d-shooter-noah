@@ -1,14 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-
     private MeshRenderer meshRenderer;
-
-    public float animationSpeed = 0.05f;
+    public float animationSpeed = 1f;
 
     private void Awake()
     {
@@ -19,5 +14,4 @@ public class Parallax : MonoBehaviour
     {
         meshRenderer.material.mainTextureOffset += new Vector2(animationSpeed * Time.deltaTime, 0);
     }
-
 }
