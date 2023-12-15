@@ -884,6 +884,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5292850142823210606, guid: 808e2a94a2f08464bb312ea2ca604e21, type: 3}
+      propertyPath: enemyPrefab
+      value: 
+      objectReference: {fileID: 8282131552441171991, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
+    - target: {fileID: 5292850142823210606, guid: 808e2a94a2f08464bb312ea2ca604e21, type: 3}
       propertyPath: spawnRangeX
       value: 0
       objectReference: {fileID: 0}
@@ -964,6 +968,10 @@ PrefabInstance:
       propertyPath: spawnDelay
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5292850142823210606, guid: 808e2a94a2f08464bb312ea2ca604e21, type: 3}
+      propertyPath: enemyPrefab
+      value: 
+      objectReference: {fileID: 8282131552441171991, guid: 495642eafc9670944a4a57f177cfc4ce, type: 3}
     - target: {fileID: 5292850142823210606, guid: 808e2a94a2f08464bb312ea2ca604e21, type: 3}
       propertyPath: spawnRangeX
       value: 0
@@ -3048,7 +3056,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4327850106528714602, guid: 04a9a4a0f6aa3074ab31e1eea330b8e6, type: 3}
       propertyPath: m_GravityScale
-      value: 0
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 04a9a4a0f6aa3074ab31e1eea330b8e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4347,7 +4355,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4327850106528714602, guid: 04a9a4a0f6aa3074ab31e1eea330b8e6, type: 3}
       propertyPath: m_GravityScale
-      value: 0
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8282131552441171986, guid: 04a9a4a0f6aa3074ab31e1eea330b8e6, type: 3}
       propertyPath: m_LocalPosition.x
